@@ -13,7 +13,7 @@ const Homepage = () => {
 
   return (
 
-    <div className=' grid grid-cols-3 gap-3 justify-center items-center'>
+    <div className=' grid lg:grid-cols-3 gap-3 justify-center items-center lg:mr-2'>
 
 
       <div>

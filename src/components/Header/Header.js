@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className=' bg-white px-12 py-8 flex justify-center md:justify-between'>
+        <div className=' bg-white px-12 py-8 grid lg:grid-cols-3 justify-center gap-3'>
             <div className='hidden md:block '>
 
                 <div class="flex title-font font-medium items-center text-gray-900 mb-8 md:mb-0">
@@ -16,7 +16,7 @@ const Header = () => {
                     <h2 class="ml-3 text-xl text-yellow-500">E- <span className='text-xl  text-black'>Shop</span> </h2>
                 </div>
             </div>
-            <div className='flex gap-3 text-xl'>
+            <div className='flex gap-3 text-xl justify-center'>
                 <p >Men</p>
                 <p >Women</p>
                 <p >Kids</p>
@@ -24,7 +24,7 @@ const Header = () => {
 
             </div>
 
-            <div className='flex gap-3 text-xl'>
+            <div className='flex gap-3 text-xl lg:justify-end justify-center' >
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
